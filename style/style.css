@@ -45,13 +45,13 @@ header h1{
 }
 #cabecalho #ico_in{
     position: absolute;
-    bottom: 150px;
-    right: 200px;
+    bottom: 63%;
+    right: 15%;
 }
 #cabecalho #ico_git{
     position: absolute;
-    bottom: 150px;
-    right: 150px;
+    bottom: 63%;
+    right: 10%;
 }
 p{
     text-shadow: .8px .8px 2px;
