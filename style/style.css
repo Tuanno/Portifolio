@@ -30,7 +30,7 @@ nav a:hover{
     text-decoration: none;
 }
 header{
-    background-color:#DEB887;
+    background-image: linear-gradient( to right, #a96f44, #f2ecb6);
     position: relative;
     min-height: 160px;
     width: 100%;
@@ -38,9 +38,9 @@ header{
 }
 header h1{
     color: #000000;
-    padding-top: 20px;
+    padding-top: 40px;
     font-size: 3em;
-    font-family: cursive;
+    font-family: fantasy;
     font-weight: bolder;
 }
 #cabecalho #ico_in{
@@ -48,8 +48,19 @@ header h1{
     bottom: 150px;
     right: 200px;
 }
+#cabecalho #ico_git{
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+}
 p{
     text-shadow: .8px .8px 2px;
     font-size: 1.5em;
     font-family: 'Segoe UI', Tahoma, monospace, Verdana, sans-serif;
+    color:#ffffff;
 }
+p:hover{
+    color: #000000;
+    text-decoration: none;
+}
+ 
