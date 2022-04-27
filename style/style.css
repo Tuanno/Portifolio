@@ -2,7 +2,7 @@
 
 nav{
     width: 100%;
-    padding: 10px;
+    padding: 2%;
     border-bottom: 1.5px solid rgba(80, 79, 79, 0.384);
     text-align: center;
 }
@@ -64,3 +64,63 @@ p:hover{
     text-decoration: none;
 }
  
+img{
+    border-radius: 50%;
+    padding: 2%;
+    max-width: 25%;
+    margin-left:10%;
+}
+
+div#text{
+    left: 40%;
+    bottom: 13%;
+    position: absolute;
+    text-shadow: .8px .8px 2px;
+    font-size: 1;
+    font-family: 'nunito', sans-serif;
+    border: 2px solid black;
+    padding: 0.5%;
+    width: 40%;
+    text-align: center;
+}
+
+h2{
+    position: absolute;
+    left: 52%;
+    bottom: 40%;
+    font-family: 'Segoe UI', Tahoma, monospace, Verdana, sans-serif;
+    text-decoration: underline;
+    text-decoration-color:#000000;
+}
+
+footer{
+    width: 100%;
+    background-image: linear-gradient( to right, #a96f44, #f2ecb6);
+    position: absolute;
+}
+footer h1{
+    color: #000000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3em;
+    font-family: fantasy;
+    font-weight: bolder;
+    text-align: center;
+}
+footer#footer{
+    width: 100%;
+    background-image: linear-gradient( to right, #a96f44, #f2ecb6);
+    position: absolute;
+    top: 85%;
+    padding-top:0.2%;
+}
+footer h1{
+    color: #000000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3em;
+    font-family: fantasy;
+    font-weight: bolder;
+    text-align: center;
+}
+
